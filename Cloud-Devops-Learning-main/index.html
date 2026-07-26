@@ -30,7 +30,7 @@
             <p>Continue learning AWS, Linux, Git and Networking.</p>
         </section>
 
-        <section class="stats-section"></section>
+        <section class="stats-section">
 
             <div class="stat-card">
                 <h3>4</h3>
@@ -47,6 +47,28 @@
                 <p>Learning Progress</p>
             </div>
 
+        </section>
+
+        <section class="progress-section">
+            <div class="progress-heading">
+                <div>
+                    <p class="progress-label">Overall Progress</p>
+                    <h2>Learning Progress</h2>
+                </div>
+
+                <span id="progressText">0 of 4 topics completed</span>
+            </div>
+
+            <div
+                class="progress-container"
+                role="progressbar"
+                aria-label="Learning progress"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+            >
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
         </section>
 
         <section class="topics-section">
