@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud & DevOps Learning Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>DevOps Learning Dashboard</h1>
+            <p>Track your Cloud and DevOps learning journey</p>
+        </div>
+
+        <button id="themeButton">
+            🌙 Dark Mode
+        </button>
+    </header>
+
+    <main class="container">
+
+        <section class="hero-section">
+            <p>Welcome back,</p>
+            <h2>Mayur Bhamare 👋</h2>
+            <p>Continue learning AWS, Linux, Git and Networking.</p>
+        </section>
+
+        <section class="stats-section">
+
+            <div class="stat-card">
+                <h3>4</h3>
+                <p>Total Topics</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="completedTopics">0</h3>
+                <p>Completed Topics</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="progressPercentage">0%</h3>
+                <p>Learning Progress</p>
+            </div>
+
+        </section>
+
+        <section class="topics-section">
+
+            <h2>DevOps Learning Topics</h2>
+
+            <div class="topic-grid">
+
+                <div class="topic-card" data-topic="aws">
+                    <h3>☁️ AWS Cloud</h3>
+
+                    <p>
+                        Learn EC2, S3, IAM and VPC.
+                    </p>
+
+                    <button class="complete-button">
+                        Mark Complete
+                    </button>
+                </div>
+
+                <div class="topic-card" data-topic="linux">
+                    <h3>🐧 Linux</h3>
+
+                    <p>
+                        Practice Linux commands and services.
+                    </p>
+
+                    <button class="complete-button">
+                        Mark Complete
+                    </button>
+                </div>
+
+                <div class="topic-card" data-topic="git">
+                    <h3>🌿 Git & GitHub</h3>
+
+                    <p>
+                        Learn repositories, commits and branches.
+                    </p>
+
+                    <button class="complete-button">
+                        Mark Complete
+                    </button>
+                </div>
+
+                <div class="topic-card" data-topic="networking">
+                    <h3>🌐 Networking</h3>
+
+                    <p>
+                        Learn IP addresses, ports and protocols.
+                    </p>
+
+                    <button class="complete-button">
+                        Mark Complete
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created by Mayur Bhamare</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
